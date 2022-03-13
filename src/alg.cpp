@@ -9,7 +9,7 @@ bool checkPrime(uint64_t value) {
       if ((value % j == 0) && (j != 1)) {
         a = false;
         break;
-      }  
+      }
     }
     return (a);
 }
@@ -21,7 +21,7 @@ uint64_t nPrime(uint64_t n) {
   while (y < n) {
     bool a = true;
     for (int sr = 2; sr < j; sr++) {
-      if (j %r sr == 0) {
+      if (j % sr == 0) {
         a = false;
         break;
       }
@@ -41,7 +41,7 @@ uint64_t nextPrime(uint64_t value) {
     bool a = true;
     sr++;
     for (int j = 2; j< sr; j++) {
-      if (sr % j == 0){
+      if (sr % j == 0) {
         a = false;
         break;
       }
